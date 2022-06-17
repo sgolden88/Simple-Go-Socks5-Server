@@ -12,7 +12,6 @@ import (
 //settings
 const version byte = 5 //Socks5
 const method byte = 0  //Only supports 0:No auth required, and 2: User:Pass required
-//TODO test authentication
 const port string = ":8000"
 
 //optional, change them if you're going to use password authentication
